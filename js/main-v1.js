@@ -56,7 +56,7 @@ var products = [
     productCode: 'tort-4',
     productType: 'tort',
     name: 'Tort cu Ciocolată, Fistic și Zmeură',
-    tags: [ 'ciocolată', 'fistic', 'zmeura', 'mirrorglaze' ],
+    tags: [ 'ciocolata', 'fistic', 'zmeura', 'mirrorglaze' ],
     images: [
       'https://farm1.staticflickr.com/899/39550990030_e1ebef8612_o.jpg',
       'https://farm1.staticflickr.com/784/40646929774_6d130d2f92_o.jpg',
