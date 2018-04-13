@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>TastyTaste - Artisanal Desserts - TastyTaste.ro</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="/manifest.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <script defer src="/css/fontawesome-free-5.0.8/svg-with-js/js/fontawesome-all.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Roboto:300">
+        <link rel="stylesheet" href="/css/main-v1.css">
+    </head>
+    <body>
+        <div id="zoomed-product-modal" class="zoomed-product-modal hidden">
+            <i id="zoomed-product-modal-close" class="zoomed-product-modal-close far fa-window-close fa-2x" onclick="zoomProductOut();"></i>
+            <div id="zoomed-product-modal-content" class="zoomed-product-modal-content">
+                <img src="/img/products/default-product.svg">
+            </div>
+            <div id="zoomed-product-modal-caption" class="zoomed-product-modal-caption">
+                <div id="img-nav-tip" class="img-nav-tip hidden">
+                    <i class="far fa-lightbulb"></i>
+                    <em id="img-nav-tip-go-next" class="hidden">Click pe jumătatea dreaptă &nbsp;<i class="fas fa-user-secret"></i></em>
+                    <em id="img-nav-tip-go-prev" class="hidden">Click pe jumătatea stângă &nbsp;<i class="far fa-smile"></i></em>
+                </div><br>
+                <span></span>
+            </div>
+        </div>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <header>
+            <a href="/"><img src="/img/tastytaste-logo.svg" class="site-logo"></a>
+            <a href="tel:0728056348" title="Pentru comenzi sună la 0728 056 348"><i class="fas fa-mobile-alt fa-lg"></i>&nbsp; 0728 056 348</a>
+        </header>
+        <section id="spinner-section" class="spinner-section">
+            <div>
+                <div class="spinner">
+                    <div class="rect1"></div>
+                    <div class="rect2"></div>
+                    <div class="rect3"></div>
+                    <div class="rect4"></div>
+                    <div class="rect5"></div>
+                </div>
+                &nbsp;&nbsp;&nbsp; se încarcă ...
+            </div>
+        </section>
+        <section id="filter-view-section" class="filter-view-section hidden">
+            <div class="filter-view-wrapper">
+                <a href="/" id="btn-cancel-filters" onclick="event.preventDefault(); removeAllFilterTags();">Filtre &nbsp;<i class="fas fa-sm fa-times"></i></a>
+                <div id="filter-view" class="filter-view">
+                </div>
+            </div>
+        </section>
+        <section id="blog-post-list" class="hidden">
+        </section>
+        <section id="load-more-products-section" class="hidden">
+            <a id="btn-load-more-products" class="btn-load-more-products" href="">
+                <i class="far fa-arrow-alt-circle-down fa-3x"></i>
+                <span>Mai Multe Produse</span>
+            </a>
+        </section>
+        <footer>
+            <a href="/" class="handwriting">TastyTaste.ro</a> &copy; <span class="current-year"></span>
+            <br><a href="tel:0728056348" title="Pentru comenzi sună la 0728 056 348"><i class="fas fa-mobile-alt fa-lg"></i>&nbsp; 0728 056 348</a>
+        </footer>
+
+        <script src="/js/vendor/jquery-3.3.1.min.js"></script>
+        <script src="/js/vendor/jquery.mobile.1.5.0-alpha.1.custom-touch-only.min.js"></script>
+        <script src="/js/main-v1.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <!--
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        -->
+    </body>
+</html>
