@@ -6,11 +6,11 @@ var products = [
     name: 'Torturi cu Praline și Mousse de Mascarpone',
     tags: [ 'alune', 'migdale', 'caramel', 'mascarpone', 'cafea', 'velvetglaze' ],
     images: [
-      'https://farm1.staticflickr.com/793/41407864782_3f75f1a2c9_o.jpg',
-      'https://farm1.staticflickr.com/900/41407865962_fb92dfc831_o.jpg',
-      'https://farm1.staticflickr.com/889/41450921061_772215bd89_o.jpg',
-      'https://farm1.staticflickr.com/871/40556838785_933764411c_o.jpg',
-      'https://farm1.staticflickr.com/876/41450779651_496b5864dc_o.jpg'
+      'https://farm1.staticflickr.com/879/40558407505_f39eac70f9_o.jpg',
+      'https://farm1.staticflickr.com/897/40558406805_7ef88f386b_o.jpg',
+      'https://farm1.staticflickr.com/896/41452171721_be18e62db2_o.jpg',
+      'https://farm1.staticflickr.com/810/40558407245_8cacf19a7d_o.jpg',
+      'https://farm1.staticflickr.com/813/40558406615_dbb8fd37fb_o.jpg'
     ]
   },
   {
@@ -20,12 +20,13 @@ var products = [
     name: 'Torturi cu Praline și Mousse de Mascarpone',
     tags: [ 'alune', 'migdale', 'caramel', 'mascarpone', 'cafea', 'mirrorglaze' ],
     images: [
-      'https://farm1.staticflickr.com/871/41407867282_824ec1b554_o.jpg',
-      'https://farm1.staticflickr.com/818/41450782261_cd653b9beb_o.jpg',
-      'https://farm1.staticflickr.com/891/41407866672_74ecb97b53_o.jpg',
-      'https://farm1.staticflickr.com/790/40556837955_b46dc4cf85_o.jpg',
-      'https://farm1.staticflickr.com/816/27579467338_4fcc233fbb_o.jpg',
-      'https://farm1.staticflickr.com/788/40556839095_b9ddceaac3_o.jpg'
+      'https://farm1.staticflickr.com/887/40558407015_91c437863e_o.jpg',
+      'https://farm1.staticflickr.com/822/40558407905_cc2566ee89_o.jpg',
+      'https://farm1.staticflickr.com/790/40558406975_6d453f5b39_o.jpg',
+      'https://farm1.staticflickr.com/895/41452172081_cb833aed38_o.jpg',
+      'https://farm1.staticflickr.com/811/41452171501_f4f3c0f47d_o.jpg',
+      'https://farm1.staticflickr.com/881/41452171941_0be7bbf4f9_o.jpg',
+      'https://farm1.staticflickr.com/808/40558407685_93f83b1fbf_o.jpg'
     ]
   },
   {
