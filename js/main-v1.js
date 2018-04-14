@@ -1,5 +1,34 @@
 var products = [
   {
+    id: '2018-04-14-torturi-praline-mousse-mascarpone-velvetglaze',
+    productCode: 'tort-10',
+    productType: 'tort',
+    name: 'Torturi cu Praline și Mousse de Mascarpone',
+    tags: [ 'alune', 'migdale', 'caramel', 'mascarpone', 'cafea', 'velvetglaze' ],
+    images: [
+      'https://farm1.staticflickr.com/793/41407864782_3f75f1a2c9_o.jpg',
+      'https://farm1.staticflickr.com/900/41407865962_fb92dfc831_o.jpg',
+      'https://farm1.staticflickr.com/889/41450921061_772215bd89_o.jpg',
+      'https://farm1.staticflickr.com/871/40556838785_933764411c_o.jpg',
+      'https://farm1.staticflickr.com/876/41450779651_496b5864dc_o.jpg'
+    ]
+  },
+  {
+    id: '2018-04-14-torturi-praline-mousse-mascarpone-mirrorglaze',
+    productCode: 'tort-9',
+    productType: 'tort',
+    name: 'Torturi cu Praline și Mousse de Mascarpone',
+    tags: [ 'alune', 'migdale', 'caramel', 'mascarpone', 'cafea', 'mirrorglaze' ],
+    images: [
+      'https://farm1.staticflickr.com/871/41407867282_824ec1b554_o.jpg',
+      'https://farm1.staticflickr.com/818/41450782261_cd653b9beb_o.jpg',
+      'https://farm1.staticflickr.com/891/41407866672_74ecb97b53_o.jpg',
+      'https://farm1.staticflickr.com/790/40556837955_b46dc4cf85_o.jpg',
+      'https://farm1.staticflickr.com/816/27579467338_4fcc233fbb_o.jpg',
+      'https://farm1.staticflickr.com/788/40556839095_b9ddceaac3_o.jpg'
+    ]
+  },
+  {
     id: '2018-04-10-tort-cu-ciocolata-fistic-si-zmeura',
     productCode: 'tort-8',
     productType: 'tort',
