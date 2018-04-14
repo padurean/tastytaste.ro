@@ -405,16 +405,17 @@ var imgNavTipGoPrevJq;
 var imgNavTipGoNextShown = false;
 var imgNavTipGoPrevShown = false;
 function showImgNavTip(next) {
-  if (next) {
-    imgNavTipGoPrevJq.addClass('hidden');
-    imgNavTipGoNextJq.removeClass('hidden');
-    imgNavTipGoNextShown = true;
-  } else {
-    imgNavTipGoNextJq.addClass('hidden');
-    imgNavTipGoPrevJq.removeClass('hidden');
-    imgNavTipGoPrevShown = true;
-  }
-  imgNavTipJq.removeClass('hidden');
+  // TODO OGG: uncomment when bug is fixed
+  // if (next) {
+  //   imgNavTipGoPrevJq.addClass('hidden');
+  //   imgNavTipGoNextJq.removeClass('hidden');
+  //   imgNavTipGoNextShown = true;
+  // } else {
+  //   imgNavTipGoNextJq.addClass('hidden');
+  //   imgNavTipGoPrevJq.removeClass('hidden');
+  //   imgNavTipGoPrevShown = true;
+  // }
+  // imgNavTipJq.removeClass('hidden');
 }
 function hideImgNavTip() {
   imgNavTipJq.addClass('hidden');
