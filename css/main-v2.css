@@ -265,7 +265,7 @@ a.btn-load-more-products > span {
     max-height: 100%;
     overflow: hidden;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #fff;
 }
 .zoomed-product-modal-content {
     width: 100%;
@@ -284,20 +284,23 @@ a.btn-load-more-products > span {
     z-index: 2;
     text-align: center;
 }
-.zoomed-product-modal-caption > span {
-    background-color: #dc4774;
-    color: #fff;
+.zoomed-product-modal-caption > .zoomed-product-modal-caption-content {
     margin: 0 4rem;
     padding: .1rem .5rem;
-    border-radius: 3px;
+    line-height: .5rem;
 }
-.zoomed-product-modal-caption .img-nav-tip {
+.zoomed-product-modal-caption > .zoomed-product-modal-caption-content > div {
     display: inline-block;
+    width: .5rem;
+    max-width: .5rem;
+    height: .5rem;
+    max-height: .5rem;
+    border-radius: 50%;
+    background-color: rgba(220, 71, 116, .65);
+}
+.zoomed-product-modal-caption > .zoomed-product-modal-caption-content > div.current-position {
     background-color: #dc4774;
-    color: #fff;
-    margin: 1rem;
-    padding: .1rem .75rem;
-    border-radius: 3px;
+    border: 1px solid #dc4774;
 }
 .zoomed-product-modal-content > img {
     max-height: 100%;
