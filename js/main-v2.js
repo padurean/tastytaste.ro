@@ -109,7 +109,7 @@ var products = [
     productCode: 'tort-2',
     productType: 'tort',
     name: 'Tort cu Mango și Citrice',
-    tags: [ 'mango', 'fructe', 'citrice', 'mousse' ],
+    tags: [ 'mango', 'fructe', 'citrice' ],
     images: [
       'https://farm1.staticflickr.com/893/26489343817_2dc03dff1c_o.jpg',
       'https://farm1.staticflickr.com/788/26489344027_917b4face1_o.jpg',
