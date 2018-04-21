@@ -8,7 +8,7 @@ var products = [
     images: [
       'https://farm1.staticflickr.com/918/41556955892_ecf41544cd_o.jpg',
       'https://farm1.staticflickr.com/931/27728027428_493523167c_o.jpg',
-      'https://farm1.staticflickr.com/799/41556955542_752cb4da3e_o.jpg',
+      'https://farm1.staticflickr.com/799/41556955542_90a73b64dd_o.jpg',
       'https://farm1.staticflickr.com/829/27728027348_8552e5dac4_o.jpg',
       'https://farm1.staticflickr.com/937/27728027408_493523167c_o.jpg'
     ]
