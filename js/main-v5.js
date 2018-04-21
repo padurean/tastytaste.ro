@@ -466,11 +466,6 @@ var productIndexesPerTag = {
   ready: false
 }
 $tastyJq(document).ready(function() {
-  blogPostListJq = $tastyJq('#blog-post-list');
-  zoomedProductModalJq = $tastyJq('#zoomed-product-modal');
-  documentBodyJq = $tastyJq(document.body);
-  btnLoadMoreProductsJq = $tastyJq('#btn-load-more-products');
-
   for (var i = 0; i < products.length; i++) {
     var p = products[i];
     productIndexPerId[p.id] = i;
@@ -484,6 +479,23 @@ $tastyJq(document).ready(function() {
   }
   productIndexPerId.ready = true;
   productIndexesPerTag.ready = true;
+
+  setZoomedProductId(window.location.hash ? window.location.hash.replace('#!', '') : null);
+  if (zoomedProductId == null)
+    removeHash();
+  else { // set the FB og tags; this will only be useful when page is loaded by FB crawlers
+    var pForFb = products[productIndexPerId[zoomedProductId]];
+    $tastyJq("meta[property='og:url']").attr('content', window.location);
+    $tastyJq("meta[property='og:type']").attr('content', 'article');
+    $tastyJq("meta[property='og:title']").attr('content', pForFb.name);
+    $tastyJq("meta[property='og:description']").attr('content', pForFb.tags.join(', '));
+    $tastyJq("meta[property='og:image']").attr('content', pForFb.images[0]);
+  }
+
+  blogPostListJq = $tastyJq('#blog-post-list');
+  zoomedProductModalJq = $tastyJq('#zoomed-product-modal');
+  documentBodyJq = $tastyJq(document.body);
+  btnLoadMoreProductsJq = $tastyJq('#btn-load-more-products');
 
   zoomedProductModalContentJq = $tastyJq('#zoomed-product-modal-content')
   zoomedProductModalContentJq.on('click', showPrevOrNextProductImage);
@@ -499,10 +511,6 @@ $tastyJq(document).ready(function() {
   if (locationSearch) {
     filteredTags = locationSearch.slice(); 
   }
-
-  setZoomedProductId(window.location.hash ? window.location.hash.replace('#!', '') : null);
-  if (zoomedProductId == null)
-    removeHash();
 
   filterViewSection = $tastyJq('#filter-view-section');
   filterView = $tastyJq('#filter-view');
