@@ -4,7 +4,7 @@ var products = [
     productCode: 'macarons-1',
     productType: 'macarons',
     name: 'Macarons cu Litchi, Zmeură, Caramel și Praline',
-    tags: [ 'macarons', 'litchi', 'lychee', 'zmeura', 'caramel', 'praline' ],
+    tags: [ 'macarons', 'litchi', 'lychee', 'zmeura', 'caramel', 'alune' ],
     images: [
       'https://farm1.staticflickr.com/918/41556955892_ecf41544cd_o.jpg',
       'https://farm1.staticflickr.com/931/27728027428_493523167c_o.jpg',
