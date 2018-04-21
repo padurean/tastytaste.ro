@@ -407,7 +407,7 @@ function zoomProduct(productId) {
     var p = products[zoomedProductSliderState.productIndex];
     zoomedProductModalJq.removeClass('hidden');
     documentBodyJq.addClass('overflow-hidden');
-    window.location.hash = p.id;
+    window.location.hash = '!'+p.id;
 
     var product = products[zoomedProductSliderState.productIndex];
     var position = zoomedProductSliderState.position;
@@ -486,7 +486,7 @@ $tastyJq(document).ready(function() {
     filteredTags = locationSearch.slice(); 
   }
 
-  setZoomedProductId(window.location.hash ? window.location.hash.replace('#', '') : null);
+  setZoomedProductId(window.location.hash ? window.location.hash.replace('#!', '') : null);
   if (zoomedProductId == null)
     removeHash();
 
