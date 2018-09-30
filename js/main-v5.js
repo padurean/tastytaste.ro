@@ -1,5 +1,20 @@
 var products = [
   {
+    id: '2018-09-30-torturi-ciocolata-alune-de-padure-banane',
+    productCode: 'tort-11',
+    productType: 'tort',
+    name: 'Torturi cu Ciocolată, Alune de Pădure și Banane',
+    tags: [ 'ciocolata', 'alune', 'banane' ],
+    images: [
+      'https://farm2.staticflickr.com/1926/44094284525_f1a529d735_k.jpg',
+      'https://farm2.staticflickr.com/1905/30069180047_3828249e03_k.jpg',
+      'https://farm2.staticflickr.com/1915/43193579930_43eef2b56f_k.jpg',
+      'https://farm2.staticflickr.com/1971/31132688008_37417281d0_k.jpg',
+      'https://farm2.staticflickr.com/1925/30069178537_d2473b4604_k.jpg',
+      'https://farm2.staticflickr.com/1907/30069178957_22717541f4_k.jpg'
+    ]
+  },
+  {
     id: '2018-04-19-macarons-litchi-lychee-zmeura-caramel-praline',
     productCode: 'macarons-1',
     productType: 'macarons',
